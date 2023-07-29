@@ -31,6 +31,9 @@
     "vitest": "0.33.0"
   },
   "dependencies": {
+    "@feathersjs/feathers": "5.0.8",
+    "@feathersjs/koa": "5.0.8",
+    "@feathersjs/socketio": "5.0.8",
     "restana": "4.9.7"
   }
 }
