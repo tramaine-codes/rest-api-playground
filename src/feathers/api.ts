@@ -19,12 +19,12 @@ interface Message {
 class MessageService {
   messages: Message[] = [];
 
-  async find() {
+  find = async () => {
     // Just return all our messages
     return this.messages;
-  }
+  };
 
-  async create(data: Pick<Message, 'text'>) {
+  create = async (data: Pick<Message, 'text'>) => {
     // The new message is the data text with a unique identifier added
     // using the messages length since it changes whenever we add one
     const message: Message = {
@@ -36,7 +36,7 @@ class MessageService {
     this.messages.push(message);
 
     return message;
-  }
+  };
 }
 
 // This tells TypeScript what services we are registering
