@@ -5,7 +5,7 @@
     "@feathersjs/koa": "5.0.31",
     "@feathersjs/socketio": "5.0.31",
     "@hapi/hapi": "21.3.12",
-    "@hono/node-server": "1.13.5",
+    "@hono/node-server": "1.13.6",
     "@types/express": "5.0.0",
     "express": "4.21.1",
     "fastify": "5.1.0",
@@ -29,7 +29,7 @@
     "prettier": "3.3.3",
     "tsx": "4.19.2",
     "typescript": "5.6.3",
-    "typescript-eslint": "8.13.0",
+    "typescript-eslint": "8.14.0",
     "vitest": "2.1.4"
   },
   "license": "ISC",
