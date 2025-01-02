@@ -47,6 +47,7 @@
     "prepare": "husky",
     "start:fastify": "tsx src/fastify/api.ts",
     "start:fastify:swagger": "tsx src/fastify/swagger.ts",
+    "start:fastify:swagger-static": "tsx src/fastify/swagger-static.ts",
     "start:hono": "tsx src/hono/api.ts",
     "start:hono:swagger": "tsx src/hono/swagger.ts",
     "test": "vitest run",
