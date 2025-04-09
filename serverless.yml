@@ -1,0 +1,19 @@
+service: fastify-swagger
+
+plugins:
+  - serverless-offline
+
+provider:
+  memorySize: 1024
+  name: aws
+  region: us-east-1
+  runtime: nodejs18.x
+  stage: v1
+
+functions:
+  swagger:
+    events:
+      - http:
+          path: docs
+          method: get
+    handler: lib/fastify/swagger-lambda.handler
