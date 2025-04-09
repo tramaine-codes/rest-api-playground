@@ -14,7 +14,7 @@ server.register(swagger, {
 });
 
 server.register(swaggerUi, {
-  routePrefix: '/docs',
+  routePrefix: 'v1/docs',
   uiConfig: {
     docExpansion: 'list',
     deepLinking: true,
